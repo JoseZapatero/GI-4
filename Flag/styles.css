@@ -1,0 +1,22 @@
+.table {
+    width: 1000px;
+    height: 650px;
+    border: 1px solid black;
+}
+
+.row {
+    width: 1000px;
+    height: 25px;
+    background-color: red;
+}
+
+.row:nth-child(odd){
+    background-color: white;
+}
+
+.logo {
+    width: 380x;
+    height: 300px;
+    position: absolute;
+    top: 9px;
+}

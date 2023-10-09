@@ -1,0 +1,147 @@
+.grid-product {
+    display: grid;
+    row-gap: 80px;
+    column-gap: 30px;
+    width: fit-content;
+}
+
+main {
+    padding: 100px 180px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.product-1 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.product-2 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.product-3 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* grid-area: main-2; */
+}
+
+.product-4 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /* grid-area: main-2; */
+}
+
+.product-5 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    /* grid-area: main-3; */
+}
+
+.product-6 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    /* grid-area: main-3; */
+}
+
+.product-7 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    /* grid-area: main-4; */
+}
+
+
+.product-8 {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    /* grid-area: main-4; */
+}
+
+.price {
+    color: black;
+    position: absolute;
+    top: 11.6cm;
+}
+
+.price-2 {
+    color: black;
+    position: absolute;
+    top: 11.6cm;
+}
+
+.price-3 {
+    color: black;
+    position: absolute;
+    top: 11.6cm;
+}
+
+.price-4 {
+    color: black;
+    position: absolute;
+    top: 11.6cm;
+}
+
+.price-5 {
+    color: black;
+    position: absolute;
+    top: 22cm;
+}
+
+.price-6 {
+    color: black;
+    position: absolute;
+    top: 22cm;
+}
+
+.price-7 {
+    color: black;
+    position: absolute;
+    top: 22cm;
+}
+
+.price-8 {
+    color: black;
+    position: absolute;
+    top: 22cm;
+}
+
+.soccer {
+    max-width: 310px;
+}
+
+.soccer:hover {
+    box-shadow: 10px 5px 30px gray;
+}
+
+.text {
+    margin: 5px 5px;
+}
